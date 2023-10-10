@@ -2,3 +2,78 @@
 
 
 /* Contact */
+.contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+.contact-aside {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.contact-aside:hover {
+    transform: translateY(-5px);
+}
+.aside-image img {
+    height: 250px;
+    width: 300px;
+    
+}
+.contact-aside h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+}
+.contact-aside p {
+    font-size: 16px;
+    color: #666;
+}
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.contact-details li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-details i {
+    font-size: 24px;
+    color: #3498db;
+    margin-right: 10px;
+}
+.contact-details h5 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.contact-socials {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-socials li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contact-socials a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.contact-socials a:hover {
+    color: #3498db;
+}
+
+
