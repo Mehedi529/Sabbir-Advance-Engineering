@@ -1,0 +1,81 @@
+
+
+/* About Team Members */
+.team {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+.team h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.team-member {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.team-member:hover {
+    transform: translateY(-5px);
+}
+.team-member-image img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+}
+.team-member-info h4 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+.team-member-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.team-member-socials {
+    list-style: none;
+    padding: 0;
+}
+.team-member-socials a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin: 5px;
+    transition: color 0.3s ease;
+}
+.team-member-socials a:hover {
+    color: #3498db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
