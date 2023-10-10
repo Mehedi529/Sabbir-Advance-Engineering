@@ -225,10 +225,33 @@ header {
 
 /* Footer section */
 footer {
+    width: 100%;
     background-color: #333;
     color: #fff;
-    padding: 40px 0;
+    padding: 50px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
     text-align: center;
+}
+.footer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-info {
+    flex-basis: 20%;
+    padding: 10px;
+}
+.footer-info ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer-info ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer-logo h4 {
@@ -237,7 +260,7 @@ footer {
     color: #fff;
     text-decoration: none;
 }
-.footer-1 p {
+.footer-info p {
     font-size: 14px;
     color: #ccc;
     margin-top: 10px;
@@ -255,19 +278,15 @@ footer {
 .links a:hover {
     color: #3498db;
 }
-.footer-2,
-.footer-3,
-.footer-4 {
+.footer-info {
     margin-top: 30px;
 }
-.footer-2 h4,
-.footer-3 h4,
-.footer-4 h4 {
+.footer-info h4 {
     font-size: 18px;
     color: #fff;
     margin-bottom: 10px;
 }
-.footer-4 p {
+.footer-info p {
     font-size: 16px;
     margin: 5px 0;
 }
