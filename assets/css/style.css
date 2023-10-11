@@ -235,7 +235,8 @@ footer {
 }
 .footer {
     width: 85%;
-    margin: auto;
+    margin: 1rem auto;
+    gap: 2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -245,21 +246,28 @@ footer {
     flex-basis: 20%;
     padding: 10px;
 }
+.footer-info h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
 .footer-info ul li {
     list-style: none;
     margin-bottom: 12px;
+    text-align: center;
 }
 .footer-info ul li a {
     text-decoration: none;
     color: #fff;
 }
-
-.footer-logo h4 {
+.footer-logo {
     font-size: 24px;
     margin: 0;
     color: #fff;
     text-decoration: none;
 }
+
 .footer-info p {
     font-size: 14px;
     color: #ccc;
@@ -281,11 +289,7 @@ footer {
 .footer-info {
     margin-top: 30px;
 }
-.footer-info h4 {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 10px;
-}
+
 .footer-info p {
     font-size: 16px;
     margin: 5px 0;
